@@ -57,7 +57,7 @@ summary_type = st.selectbox(
 # Dropdown for model type
 model_type = st.selectbox(
     "Select Model Type",
-    ("Gemma-7b-It", "llama3-70b-8192", "Mixtral-8x7b-32768")
+    ("gemma2-9b-it", "llama3-70b-8192", "Mixtral-8x7b-32768")
 )
 
 # Initialize the selected model
